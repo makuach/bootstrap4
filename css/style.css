@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 720px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    display: block;
+}
+header{
+    height:80px;
+    background-color:white;
+    text-align:left;
+    padding-top:30;
+    color:#000000;
+}
+h1 a{
+    color: #000000;
+    padding: 15px;
+    margin: 15px;
+}
+
+nav{
+    width: auto;
+    background-color: cadetblue;
+    text-align:left;
+    margin-bottom:0 auto;
+    box-shadow: 0px 9px 15px 5px;
+    margin-bottom: 25px;
+}
+ul{
+    list-style-type: none; 
+    padding: 10px;
+    padding-left: 50px;
+}
+li{
+    display: inline;
+    color:white;
+    text-align:left;
+    padding:5px;
+}
+a, #a{
+    color: white;
+    text-align: left;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding:6px 0 6px 0;
+    text-align: left;
+    padding: 15px;
+}
+aside{
+    width:220px;
+    background-color:white;
+    float:left;
+    height: 500px;
+    padding-left:15px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+aside, p{
+    padding: 0 0 0 30px;
+}
+h1{
+    color: #000000;
+    font-family:arial;
+    padding:40px 0 0 40px;
+}
+h2, #mm{
+    color:forestgreen;
+    padding: 0 0 0 40px;
+    padding-left: 30px;
+}
+h2, #child{
+    color:forestgreen;
+    padding: 0 0 0 40px;
+    padding-left:5px;
+}
+main{
+    background-color:white;
+    float:right;
+    height: 600px;
+    width: 450px;
+    padding-right:15px;
+    padding-top: 45px;
+}
+p, #ww{
+    padding-left: 30px;
+}
+img{
+    height: auto;
+    width: 100%;
+    padding-left:5px;
+}
+a, #dady{
+    color: black;
+}
+p, #mom{
+    padding-left:5px;
+}
+/******************contact.html**********style.css********/
+
+.containers{
+    margin: 0 auto;
+    width: 780px;
+    height: 780px;
+    box-shadow: 0px 9px 13px 5px;
+    display: block;
+}
+input{
+    display: block;
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+ul li a {
+    color: white;
+}
+form{
+   box-shadow: 0px 5px 13px 6px;
+    padding: 50px;
+    width: 450px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    padding-top: 15px; 
+}    
+h3{
+    text-align: center;
+    color: green;
+}
+form #file{
+    background-color: white;
+    margin-top: 5px;
+}
+p, #gg{
+    color: #000000;
+}
+form #message{
+    background-color: lightgray;
+    box-shadow: 0px 2px 6px 1px;
+}
+form #submit{
+    background-color: cadetblue;
+    width: 200px;
+    padding-left:15px;
+    margin-left: 100px;
+    justify-content: center;
+    display: flex;
+}
+/************end of contact.html*****css*****/
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:gainsboro;
+    clear: both;
+    height:50px;
+    color: black;
+}
